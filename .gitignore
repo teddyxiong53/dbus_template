@@ -4,3 +4,4 @@ myservice_gdbus.*
 myservice_cmd
 myservice_server
 myservice_client
+.vscode
