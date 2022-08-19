@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+	<interface name="myipc.myservice">
+		<method name="Set">
+			<arg name="settings" direction="in" type="s" />
+			<arg name="reply" direction="out" type="i" />
+		</method>
+		<method name="Get">
+			<arg name="input" direction="in" type="s" />
+			<arg name="settings" direction="out" type="s" />
+			<arg name="reply" direction="out" type="i" />
+		</method>
+		<signal name="Notification">
+			<arg name="info" type="s" />
+		</signal>
+	</interface>
+</node>
